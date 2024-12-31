@@ -1,0 +1,13 @@
+# specify 1 map per line, mapname|factoryid
+# ex: aerowalk|ffa
+# see factories.txt for valid factory id values
+overkill|ffa_fun
+campgrounds|ffa_fun
+strain|ffa_fun
+flyonrocket|ffa_fun
+okremix|ffa_fun
+dm17|ffa_fun
+quarantine|ffa_fun
+trinity|ffa_fun
+thunderstruck|ffa_fun
+ra3map1|ffa_fun

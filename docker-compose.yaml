@@ -1,0 +1,84 @@
+---
+version: "3.9"
+
+services:
+  redis:
+    image: "dngrtech/redis:ql"
+    volumes:
+      - redis-data:/data
+    ports:
+      - "6379:6379"  
+  server-1:
+    image: dngrtech/td-ql-srv:latest
+    stdin_open: true
+    tty: true
+    ports:
+    - "27960:27960/udp"
+    - "28888:28888/tcp"
+    volumes:
+      - ./data/baseq3/chatlogs/server-1:/qlds/chatlogs
+      - ./access.txt:/qlds/baseq3/access.txt
+      - ./server1.cfg:/qlds/baseq3/server.cfg
+      - ./mappool_ffavamp.txt:/qlds/baseq3/mappool.txt
+      - ./workshop.txt:/qlds/baseq3/workshop.txt
+      - ./data/steamapps/:/qlds/steamapps/
+      - ./data/scripts/:/qlds/scripts/
+      - ./data/scripts/:/qlds/baseq3/scripts/     
+      - ./data/minqlx-plugins:/qlds/minqlx-plugins/
+      - ./data/steamapps/workshop/content/282440/2907206859/thunderdome.pk3:/qlds/baseq3/thunderdome.pk3
+      - ./data/steamapps/workshop/content/282440/2377955827/doompack.pk3:/qlds/baseq3/doompack.pk3
+      - ./data/steamapps/workshop/content/282440/3357334482/doompack2.pk3:/qlds/baseq3/doompack2.pk3
+      - ./data/steamapps/workshop/content/282440/3372915886/doompack3.pk3:/qlds/baseq3/doompack3.pk3
+      - /etc/localtime:/etc/localtime:ro
+    depends_on:
+     - redis
+  server-2:
+    image: dngrtech/td-ql-srv:latest
+    stdin_open: true
+    tty: true
+    ports:
+    - "27962:27962/udp"
+    - "28889:28889/tcp"
+    volumes:
+      - ./data/baseq3/chatlogs/server-2:/qlds/chatlogs
+      - ./access.txt:/qlds/baseq3/access.txt
+      - ./server2.cfg:/qlds/baseq3/server.cfg
+      - ./mappool_ca_rockets.txt:/qlds/baseq3/mappool.txt
+      - ./workshop.txt:/qlds/baseq3/workshop.txt  
+      - ./data/steamapps/:/qlds/steamapps/
+      - ./data/scripts/:/qlds/scripts/
+      - ./data/scripts/:/qlds/baseq3/scripts/     
+      - ./data/minqlx-plugins:/qlds/minqlx-plugins/
+      - ./data/steamapps/workshop/content/282440/2907206859/thunderdome.pk3:/qlds/baseq3/thunderdome.pk3
+      - ./data/steamapps/workshop/content/282440/2377955827/doompack.pk3:/qlds/baseq3/doompack.pk3
+      - ./data/steamapps/workshop/content/282440/3357334482/doompack2.pk3:/qlds/baseq3/doompack2.pk3
+      - ./data/steamapps/workshop/content/282440/3372915886/doompack3.pk3:/qlds/baseq3/doompack3.pk3
+      - /etc/localtime:/etc/localtime:ro
+    depends_on:
+     - redis
+  server-3:
+    image: dngrtech/td-ql-srv:latest
+    stdin_open: true
+    tty: true
+    ports:
+    - "27964:27964/udp"
+    - "28890:28890/tcp"
+    volumes:
+      - ./data/baseq3/chatlogs/server-3:/qlds/chatlogs
+      - ./access.txt:/qlds/baseq3/access.txt
+      - ./server3.cfg:/qlds/baseq3/server.cfg
+      - ./mappool_ffa_fun.txt:/qlds/baseq3/mappool.txt
+      - ./workshop.txt:/qlds/baseq3/workshop.txt
+      - ./data/steamapps/:/qlds/steamapps/
+      - ./data/scripts/:/qlds/scripts/
+      - ./data/scripts/:/qlds/baseq3/scripts/     
+      - ./data/minqlx-plugins:/qlds/minqlx-plugins/
+      - ./data/steamapps/workshop/content/282440/2907206859/thunderdome.pk3:/qlds/baseq3/thunderdome.pk3
+      - ./data/steamapps/workshop/content/282440/2377955827/doompack.pk3:/qlds/baseq3/doompack.pk3
+      - ./data/steamapps/workshop/content/282440/3357334482/doompack2.pk3:/qlds/baseq3/doompack2.pk3
+      - ./data/steamapps/workshop/content/282440/3372915886/doompack3.pk3:/qlds/baseq3/doompack3.pk3
+      - /etc/localtime:/etc/localtime:ro
+    depends_on:
+     - redis
+volumes:
+  redis-data:

@@ -1,0 +1,57 @@
+2907206859		\\ Thunderdome Servers Workshop
+620087103		\\ Funny Sounds Pack for Minqlx
+1733859113		\\ West Coast Crew Sounds
+585892371		\\ PRESTIGE WORLDWIDE SOUNDHONKS
+572453229		\\ Duke Nukem Voice Sound Pack
+2377955827		\\ Doomsday's Sound Pack
+3357334482		\\ Doomsday's Sound Pack II
+3372915886		\\ Doomsday's Sound Pack III
+2920816724		\\ Doomsday's Intermissions Pack
+2955830332		\\ Fullbright model
+557591894		\\ RA3MAP1 (thunderstruck, evolution, theater of boredom, canned heat)
+558200805		\\ RA3MAP2 (another 4 maps we already have but originals)
+607909342		\\ RA3MAP2pp ShakenNotStirredPP
+561613916		\\ RA3MAP3
+561815150		\\ RA3MAP4
+561459991		\\ RA3MAP5
+553095317		\\ RA3MAP6
+561877295		\\ RA3MAP7
+551367534		\\ RA3MAP8
+551148976		\\ RA3MAP9
+550843679		\\ RA3MAP10
+562987267		\\ RA3MAP11
+605561819		\\ RA3MAP11pp (Overkillpp )
+1804860462		\\ RA3MAP12 
+550674410		\\ RA3MAP13
+1804890831		\\ RA3MAP14 (Newer, last updated Aug 2023)
+550575965		\\ RA3MAP15
+550566693		\\ RA3MAP16
+1804956548		\\ RA3MAP17 
+550003921		\\ RA3MAP18
+1804992817		\\ RA3MAP19 
+551229107		\\ RA3MAP20
+551699225		\\ RA3MAP21
+553088484		\\ RA3MAP22
+579950284		\\ Cow's Map
+597920398		\\ Fly on Rocket aka ts_ca1
+2790708234		\\ Fly on Rocket II
+740534444		\\ OkRemix - Revised
+1317503170		\\ Overchad
+1935100656		\\ overkeel
+3104458505		\\ Welcome to Hell
+562387741		\\ Lanphi 1 (Amphi Rebuild / Bug Fixes)
+2592514624		\\ Strain by geez louiz (Sept. 2021)
+3128296346		\\ 1v1r by Spike (January 2024)
+2888269948		\\ NoHalls (Twitch's Version)
+2358556636		\\ Uprise (xiri - January 2021)
+3149546769		\\ NoHalls2 (Twitch's Version)
+3156001078		\\ Cannonball
+550850908		\\ Solitude
+564894881		\\ Storm maps
+584176488		\\ Charon maps
+577333309		\\ Nemesis (gcBloody's Workshop)
+2608153632		\\ RA3Mapkit1 - No Love Map
+3147966392		\\ Servi2de by Spike (January 2024)
+2887233117		\\ Spike's No Halls version
+2888269948		\\ Twitchy's Nohalls (28 January 2024)
+3161885439		\\ 5quid by Spike (February 2024)
